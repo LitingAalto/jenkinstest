@@ -9,7 +9,7 @@ class TestWeekdays(unittest.TestCase):
         self.assertEqual(weekdays(date(2020, 8, 17), date(2020, 8, 20)), 32)
 
     def test_weekdends(self):
-        self.assertEqual(weekdays(date(2020, 8, 16), date(2020, 8, 22)), 39)
+        self.assertEqual(weekdays(date(2020, 8, 16), date(2020, 8, 22)), 40)
 
 
 if __name__ == "__main__":
